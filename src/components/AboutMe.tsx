@@ -15,21 +15,19 @@ const AboutMe: React.FC = () => {
   const experiences = [
     {
       year: '2024 - Present',
-      role: 'Video Editor',
-      company: 'Creative Studios Inc.',
+      role: 'Thumbnail Designer & Video Editor ',
       description: 'Creating engaging video content and developing editing skills.'
     },
     {
       year: '2024',
-      role: 'Freelance Content Creator',
-      company: 'Self-employed',
+      role: 'Freelancer',
       description: 'Working with clients on video editing and thumbnail design projects.'
     }
   ];
 
   const skills = [
-    { name: 'Video Editing', level: 90, icon: <Camera className="w-5 h-5" /> },
-    { name: 'Motion Graphics', level: 65, icon: <Code className="w-5 h-5" /> },
+    { name: 'Thumbnail Designing', level: 90, icon: <Camera className="w-5 h-5" /> },
+    { name: 'Video Editing', level: 75, icon: <Code className="w-5 h-5" /> },
     { name: 'Color Grading', level: 70, icon: <Palette className="w-5 h-5" /> }
   ];
 
@@ -64,7 +62,7 @@ const AboutMe: React.FC = () => {
         >
           <h2 className="mb-6">About <span className="gradient-text">Me</span></h2>
           <p className="text-lg text-white/80">
-            Hi, I'm <span className="gradient-text font-semibold">SOHITH</span>. With 1 year of experience in digital content creation, 
+            Hi, I'm <span className="gradient-text font-semibold">SRAVAN</span>. With more than 1 year of experience in digital content creation, 
             I've developed a passion for crafting compelling visual stories that captivate audiences and deliver impactful messages.
           </p>
         </motion.div>
@@ -102,7 +100,7 @@ const AboutMe: React.FC = () => {
                   <div className="md:col-span-4">
                     <div className="card">
                       <h4 className="text-xl font-semibold mb-2">{exp.role}</h4>
-                      <p className="text-secondary-400 mb-2">{exp.company}</p>
+                      {/* <p className="text-secondary-400 mb-2">{exp.company}</p> */}
                       <p className="text-white/70">{exp.description}</p>
                     </div>
                   </div>

@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="gradient-text">SOHITH</span>
+          <span className="gradient-text">SRAVAN</span>
         </motion.a>
 
         {/* Desktop Navigation */}

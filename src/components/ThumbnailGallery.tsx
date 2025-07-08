@@ -15,7 +15,7 @@ const thumbnails = [
   {
     id: 1,
     title: 'Education',
-    image: 'https://ik.imagekit.io/ji2lkjg53/Untitled%20(2).png?updatedAt=1747703194235',
+    image: 'https://ik.imagekit.io/ji2lkjg53/Astro%20K%20Joseph%20figma.png?updatedAt=1749140686247',
     category: 'YouTube',
   },
   {
@@ -33,20 +33,38 @@ const thumbnails = [
   {
     id: 4,
     title: 'Tech Review',
-    image: 'https://ik.imagekit.io/ji2lkjg53/marks.png?updatedAt=1747703614671',
+    image: 'https://ik.imagekit.io/ji2lkjg53/ai%20coach.png?updatedAt=1751939579853',
     category: 'YouTube',
   },
   {
     id: 5,
     title: 'Freelancing',
-    image: 'https://ik.imagekit.io/ji2lkjg53/Ciaran%20Doyle.png?updatedAt=1747703327730',
+    image: 'https://ik.imagekit.io/ji2lkjg53/student.png?updatedAt=1751939850316',
     category: 'YouTube',
   },
   {
     id: 6,
     title: 'Podcast',
-    image: 'https://ik.imagekit.io/ji2lkjg53/neil%20wilkins.png?updatedAt=1747703433631',
-    category: 'Youtube',
+    image: 'https://ik.imagekit.io/ji2lkjg53/clone%20website.png?updatedAt=1751939683234',
+    category: 'YouTube',
+  },
+  {
+    id: 7,
+    title: 'Podcast',
+    image: 'https://ik.imagekit.io/ji2lkjg53/UIBraniX.png?updatedAt=1751939744256',
+    category: 'YouTube',
+  },
+  {
+    id: 8,
+    title: 'Podcast',
+    image: 'https://ik.imagekit.io/ji2lkjg53/Resume.png?updatedAt=1751940538005',
+    category: 'YouTube',
+  },
+  {
+    id: 9,
+    title: 'Podcast',
+    image: 'https://ik.imagekit.io/ji2lkjg53/linkedin-jayanth%20padhi.png?updatedAt=1751940506503',
+    category: 'YouTube',
   },
 ];
 

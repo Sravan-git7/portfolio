@@ -9,31 +9,12 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">
-              <span className="gradient-text">SOHITH</span>
+              <span className="gradient-text">SRAVAN</span>
             </h3>
             <p className="text-white/70 mb-6 max-w-md">
               Professional video editing, thumbnail design, and visual effects services
               that captivate audiences and tell compelling stories.
             </p>
-            <div className="flex space-x-4">
-              {[
-                // { icon: <Facebook size={20} />, href: '#' },
-                // { icon: <Twitter size={20} />, href: '#' },
-                // { icon: <Instagram size={20} />, href: '#' },
-                // { icon: <Youtube size={20} />, href: '#' },
-                // { icon: <Linkedin size={20} />, href: '#' },
-              ].map((social, index) => (
-                <motion.a
-                  key={index}
-                  href={social.href}
-                  className="w-10 h-10 rounded-full bg-dark-300 flex items-center justify-center text-white/70 hover:text-white hover:bg-primary-500/20 transition-colors"
-                  whileHover={{ y: -5, transition: { duration: 0.2 } }}
-                  whileTap={{ scale: 0.9 }}
-                >
-                  {social.icon}
-                </motion.a>
-              ))}
-            </div>
           </div>
           
           <div>

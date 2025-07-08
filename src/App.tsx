@@ -21,8 +21,9 @@ function App() {
         <Hero />
         <About />
         <AboutMe />
-        <VideoShowcase />
+        
         <ThumbnailGallery />
+        <VideoShowcase />
         <Services />
         <Contact />
         <Footer />
